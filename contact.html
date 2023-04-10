@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo">
+          <img src="img/logo.svg" alt="" />
+        </a>
+        <div class="header__menu menu">
+          <div class="menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="news.html" class="menu__link">IT жаңалықтары</a>
+              </li>
+              <li class="menu__item">
+                <a href="direction.html" class="menu__link">IT бағыттары</a>
+              </li>
+              <li class="menu__item">
+                <a href="contact.html" class="menu__link">Байланыс түрлері</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="contact">
+            <h2 class="contact__title">Байланыс түрлері:</h2>
+            <a href="tel:+77005450122" class="contact__phone">+7(700)-545-0122</a>
+            <a href="mailto:aginbay@mail.ru" class="contact__email">aginbay@mail.ru</a>
+            <h2 class="contact__title">Басты құраушы: <span>Агинбаев Айбат</span></h2>
+            <img src="img/hero.png" alt="">
+            <h3 class="list__title">Қолданылған технологиялар:</h3>
+            <ul>
+                <li>React.JS</li>
+                <li>JavaScript</li>
+                <li>HTML5 / CSS3</li>
+            </ul>
+        </div>
+    </div>
+
+    <style>
+        .contact {
+            text-align: center;
+            padding: 10px;
+            background-color: #18fff8d1;
+            color: #272568e0;
+            border-radius: 25px;
+        }
+        .contact a {
+            color: inherit;
+            text-decoration: underline;
+        }
+        .contact__email {
+            margin-bottom: 20px;
+        }
+        .contact__title {
+            font-size: 20px;
+        }
+        .contact__title span {
+            color:#005ea4b5;
+            text-decoration: underline;
+        }
+        .contact li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    </style>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

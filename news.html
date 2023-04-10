@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/news.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="" />
+      </a>
+      <div class="header__menu menu">
+        <div class="menu__icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="menu__body">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="news.html" class="menu__link">IT жаңалықтары</a>
+            </li>
+            <li class="menu__item">
+              <a href="direction.html" class="menu__link">IT бағыттары</a>
+            </li>
+            <li class="menu__item">
+              <a href="contact.html" class="menu__link">Байланыс түрлері</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper__img">
+                    <img src="img/ilon.png" alt="">
+                </div>
+                <h2 class="swiper__title">Tesla зерттеушілері Tesla-ны бұзғаны үшін $100 000 және Model 3 электромобиль алды</h2>
+                <div class="swiper__text">
+                    Осы аптада Ванкуверде өтіп жатқан Pwn2Own ақпараттық қауіпсіздік конференциясы аясында зерттеушілер Tesla қауіпсіздік жүйесін екі рет бұзып үлгерді. Бұл үшін олар 100 000 доллар сыйақы мен Tesla Model 3 электромобильіне ие болды.Тесла ұзақ уақыт бойы электр көліктерінде қолданылатын бағдарламалық қамтамасыз етудің қауіпсіздігін жақсартумен айналысып келеді және бірнеше жылдан бері жыл сайынғы Pwn2Own конференциясына қатысып келеді. Ағымдағы шара аясында зерттеушілер Tesla қауіпсіздік жүйесіне екі рет сәтті шабуыл жасады.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper__img">
+                    <img src="img/language.png" alt="">
+                </div>
+                <h2 class="swiper__title">Бағдарламалау тілдеріне сұраныс рейтингі</h2>
+                <div class="swiper__text">
+                    GitHub-тағы ең танымал бағдарламалау тілі - JavaScript. Содан кейін Python, Java, Typescript және C# келеді. Алтыншы орынды PHP тілін жетінші жолға ауыстырған C++ тілі алады. Сонымен қатар, алғашқы ондыққа Shell, C және Ruby кіреді. Ең жоғары өсу қарқынын Hashicorp Configuration Language (HCL) көрсетті - 2021 жылмен салыстырғанда 56% жоғары. Rust танымалдылығы 50,5%-ға, TypeScript 37,8%-ға өсті. Ең жылдам дамып келе жатқан 10 тілге сонымен қатар Lua, Go, Shell, Makefile, C, Kotlin және Python кірді. Жалпы, GitHub әзірлеушілері 500-ге жуық әртүрлі бағдарламалау тілдерін пайдаланады.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper__img">
+                    <img src="img/google.png" alt="">
+                </div>
+                <h2 class="swiper__title">Google ресейлік YouTube блогерлерінің монетизациясын бұғаттай бастады</h2>
+                <div class="swiper__text">
+                    Google-дан жағымсыз жаңалықтар келе бастады. Сәуір айының басында көптеген YouTube блогерлері Google-дан AdSense есептік жазбасын бұғаттау туралы жағымсыз хабарландырулар ала бастады. Бұл бейне арқылы монетизация мүмкіндігі толығымен бұғатталғанын білдіреді. Google-дың айтуынша, бұғаттау туралы шешімге арнайы өтініш толтыру арқылы дау айтуға болады, бірақ әзірге желідегі блокты жоюдың оң нәтижесі жоқ. Мысалы, 120 000-ға жуық жазылушысы бар youtube желісіндегі «Ne Sharyu» арнасы бұғатталды.
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="news__row">
+            <h2 class="news__title">IT жаңалықтары</h2>
+            <div class="news__item">
+                <h3 class="news__item-title">Tesla зерттеушілері Tesla-ны бұзғаны үшін $100 000 және Model 3 электромобиль алды</h3>
+                <div class="news__item-row">
+                    <div class="news__item-img">
+                        <img src="img/ilon.png" alt="">
+                    </div>
+                    <div class="news__item__description">
+                        <p>
+                            Осы аптада Ванкуверде өтіп жатқан Pwn2Own ақпараттық қауіпсіздік конференциясы 
+                            аясында зерттеушілер Tesla қауіпсіздік жүйесін екі рет бұзып үлгерді. 
+                            Бұл үшін олар 100 000 доллар сыйақы мен Tesla Model 3 электромобильіне ие болды.
+                            Тесла ұзақ уақыт бойы электр көліктерінде қолданылатын бағдарламалық қамтамасыз 
+                            етудің қауіпсіздігін жақсартумен айналысып келеді және бірнеше жылдан бері жыл сайынғы 
+                            Pwn2Own конференциясына қатысып келеді. Ағымдағы шара аясында зерттеушілер 
+                            Tesla қауіпсіздік жүйесіне екі рет сәтті шабуыл жасады.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="news__item">
+                <h3 class="news__item-title">Бағдарламалау тілдеріне сұраныс рейтингі</h3>
+                <div class="news__item-row">
+                    <div class="news__item-img">
+                        <img src="img/language.png" alt="">
+                    </div>
+                    <div class="news__item__description">
+                        <p>
+                            GitHub-тағы ең танымал бағдарламалау тілі - JavaScript. 
+                            Содан кейін Python, Java, Typescript және C# келеді. 
+                            Алтыншы орынды PHP тілін жетінші жолға ауыстырған C++ тілі алады. 
+                            Сонымен қатар, алғашқы ондыққа Shell, C және Ruby кіреді. 
+                            Ең жоғары өсу қарқынын Hashicorp Configuration Language (HCL) көрсетті - 
+                            2021 жылмен салыстырғанда 56% жоғары. Rust танымалдылығы 50,5%-ға, 
+                            TypeScript 37,8%-ға өсті. Ең жылдам дамып келе жатқан 10 тілге сонымен қатар 
+                            Lua, Go, Shell, Makefile, C, Kotlin және Python кірді. Жалпы, GitHub әзірлеушілері 
+                            500-ге жуық әртүрлі бағдарламалау тілдерін пайдаланады.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+
+      var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+    </script>
+  </body>
+</html>
